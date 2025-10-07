@@ -1,6 +1,3 @@
-Of course. Here is a more concise version of the final draft.
-
-***
 
 # Project Title: Classification of Chest Radiographs using Deep Transfer Learning
 
@@ -20,6 +17,8 @@ This project uses a dataset of 133 chest X-ray images categorized into four clas
 * Bacterial Pneumonia 
 * Viral Pneumonia
 
+The dataset can be accessed here: https://drive.google.com/drive/folders/1hQe90EXj-AaBwNUSPg5AeRZNDm0kivX0?usp=sharing
+
 ### Tools and Technologies
 * **Python**
 * **Keras API**
@@ -28,14 +27,14 @@ This project uses a dataset of 133 chest X-ray images categorized into four clas
 * **Colab Notebook**
 
 ### Methods
-1.  **Model Selection**: We use **ResNet**, a state-of-the-art CNN with "skip connections" to prevent vanishing gradients in deep networks. ResNet has achieved super-human performance with a 3.57% error rate on ImageNet[cite: 32].
+1.  **Model Selection**: We use **ResNet**, a state-of-the-art CNN with "skip connections" to prevent vanishing gradients in deep networks. ResNet has achieved super-human performance with a 3.57% error rate on ImageNet.
 
-2.  **Transfer Learning**: We use **transfer learning**, a technique where a pre-trained model is repurposed for a new task. This significantly reduces training time and enables high performance even with a small dataset[cite: 43, 69].
+2.  **Transfer Learning**: We use **transfer learning**, a technique where a pre-trained model is repurposed for a new task. This significantly reduces training time and enables high performance even with a small dataset.
 
-3.  **Model Adaptation**: The base model's pre-trained convolutional layers are frozen. ]New dense layers are added for our specific classification task and are the only layers trained.
+3.  **Model Adaptation**: The base model's pre-trained convolutional layers are frozen. New dense layers are added for our specific classification task and are the only layers trained.
 
 ### Key Insights
-* Transfer learning enables the development of accurate models even with small datasets].
+* Transfer learning enables the development of accurate models even with small dataset.
 * Reusing a pre-trained model like ResNet drastically reduces training time and computational costs
 * This project proves the feasibility of using AI to build practical tools that can augment healthcare diagnostics.
 
